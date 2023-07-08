@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family:Red;
+      background-color: #000;
+      color:Red;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    .navigation {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    .navigation li {
+      margin-left: 20px;
+    }
+    
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    
+    .hero p {
+      font-size: 18px;
+    }
+    
+    .featured {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+    }
+    
+    .featured-item {
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .featured-item img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      background-color:White;
+    }
+    
+    .footer p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="logo">NETFLIX</h1>
+      <nav>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">New & Popular</a></li>
+          <li><a href="#">My List</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section class="hero">
+      <h1>Watch Anywhere.</h1>
+      <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+    </section>
+ <main>
+    <section>
+      <h2>Popular TV Shows</h2>
+      <ul>
+        <li>Stranger Things</li>
+        <li>The Crown</li>
+        <li>The Witcher</li>
+        <li>The Umbrella Academy</li>
+        <li>The Queen's Gambit</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Popular Movies</h2>
+      <ul>
+        <li>No Time To Die</li>
+        <li>Dune</li>
+        <li>Cruella</li>
+        <li>The Matrix Resurrections</li>
+        <li>Don't Look Up</li>
+      </ul>
+    </section>
+  </main>
+    
+    <footer class="footer">
+      <p>&copy; 2023 Netflix. All rights reserved.</p>
+    </footer>
+  </div>
+</
